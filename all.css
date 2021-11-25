@@ -1,6 +1,14 @@
 .page {
-font-family: ;
-background-color: ;
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+background-color: #2A2C2F;
+-webkit-font-smoothing: antialiased; 
+-moz-osx-font-smoothing: grayscale; 
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%; 
 }
 
 /*header*/
@@ -10,7 +18,7 @@ background-color: ;
 }
 
 .header__logo {
-
+    background-image: url(/images/header-logo.svg);
 }
 
 .header__language {

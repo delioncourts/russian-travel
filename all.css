@@ -1,31 +1,101 @@
 .page {
-
+font-family: ;
+background-color: ;
 }
-
 
 /*header*/
-.header__title {
+
+.header {
 
 }
 
-.header__subtitle {}
-
-.header__main-photo {}
-
-
-.header_text {}
-
-
-/*section-statistic*/
-
-.statistic {
+.header__logo {
 
 }
 
-.section-title {}
+.header__language {
+
+}
+
+.header__language-link {
+
+}
+
+.header__language-link_active {
+
+}
+
+
+/*lead*/
+
+.lead {}
+
+.lead__title {}
+
+
+.lead__subtitle {}
+
+
+.lead__main-photo{}
+
+.lead__text {
+
+}
+
+
+/*statistic*/
+.statistic {}
+
+.statistic__title {}
 
 .statistic__text {}
 
 .statistic__list {}
 
 .statistic__span-accent {}
+
+
+/*gallery*/
+
+.gallery {}
+
+.gallery__grid {}
+
+
+/*places*/
+
+.places {}
+
+.place {}
+
+.place__header {}
+
+.place__site {}
+
+.place__url {}
+
+.place__text {}
+
+
+/*baikal*/
+
+.baikal {}
+
+.baikal__link {}
+
+.baikal__title {}
+
+.baikal__subtitle {}
+
+/*footer*/
+
+.footer {}
+
+
+.footer__links {}
+
+
+.footer__link {}
+
+
+.footer__author {}

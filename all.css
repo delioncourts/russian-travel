@@ -147,7 +147,14 @@
 }
 /*baikal*/
 
-.baikal {}
+.baikal {
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+    background-image: url(./images/cover-trains.jpg);
+}
 
 .baikal__link {}
 
@@ -158,6 +165,8 @@
 	font-weight: 900;
 	font-size: 72px;
 	line-height: 76px;
+    z-index: 10;
+    text-align: center;
 }
 
 .baikal__subtitle {
@@ -167,6 +176,8 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 22px;
+    z-index: 9;
+    text-align: center;
 }
 
 
@@ -174,39 +185,91 @@
 
 .footer {
     max-width: 1184px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+}
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 .footer {
-    max-width: 1184px;
-    padding-left: 
+    max-width: 928px;
+    padding-bottom: 17px;
 }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
+    .footer {
+        max-width: 720px;
+        padding-bottom: 24px;
+        padding-left: 24px;
+    padding-right: 24px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-
+    .footer {
+        displsy; flex;
+        align-items: flex-start;
+        max-width: 185px;
+        padding-bottom: 10px; 
+        padding-right: 16px;
+        padding-left: 119px;
+    }
 }
 .footer__links {
-	list-style: none;
-}
-
-.footer__link {
-	margin: 0;
+    margin: 0;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 18px;
+    color:#FFFFFF;
+    transition: opacity 0.3s ease;
 }
 
+.footer__links:hover {
+	opacity: 0.8s;
+}
+
+.footer__link {
+	margin-right: 18px;
+}
+
+.footer__link:last-of-type {
+	margin-right: 0px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .footer__link {
+        margin-bottom: 32px;
+        margin-right: 0px;
+    }
+
+    .footer__link {
+        margin-bottom: 0;
+    }
+}
 .footer__author {
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 16px;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer__author  {
+        font-size: 28px;
+	line-height: 24px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .footer__author {
+        font-size: 18px;
+	line-height: 24px;
+    }
 }

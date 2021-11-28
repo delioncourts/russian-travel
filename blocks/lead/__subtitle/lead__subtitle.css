@@ -6,4 +6,23 @@
 	font-size: 30px;
 	line-height: 36px;
 	text-align: center;
+    padding-bottom: 62px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .lead__subtitle {
+        padding-bottom: 56px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .lead__subtitle {
+        padding-bottom: 56px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .lead__subtitle {
+        padding-bottom: 40px;
+    }
+} 

@@ -1,0 +1,19 @@
+.place__text {
+	margin: 0;
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 163%;
+}
+
+.place__text:last-of-type {
+	margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.place__text {
+		font-size: 16px;
+		line-height: 26.08px;
+	}
+}

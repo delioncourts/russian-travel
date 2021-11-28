@@ -1,0 +1,8 @@
+.baikal {
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	background-image: url(./images/cover-trains.jpg);
+}

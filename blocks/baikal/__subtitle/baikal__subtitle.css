@@ -1,0 +1,10 @@
+.baikal__subtitle {
+	margin: 0;
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	z-index: 9;
+	text-align: center;
+}

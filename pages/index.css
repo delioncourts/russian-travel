@@ -26,6 +26,7 @@
 @import url(../blocks/places/place/__site/place__site.css);
 @import url(../blocks/places/place/__text/place__text.css);
 @import url(../blocks/places/place/__url/place__url.css);
+@import url(../blocks/places/place/__columns/place__columns.css);
 @import url(../blocks/places/place/__image/place__image.css);
 @import url(../blocks/baikal/baikal.css);
 @import url(../blocks/baikal/__link/baikal__link.css);

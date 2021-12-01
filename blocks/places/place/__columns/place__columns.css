@@ -1,0 +1,5 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.places__columns {
+		padding: 0px 16px;
+	}
+}

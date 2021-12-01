@@ -1,8 +1,30 @@
 .baikal {
 	background-repeat: no-repeat;
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
 	position: relative;
 	background-image: url(../../images/cover-trains.jpg);
+	max-width: 1184px;
+	max-height: 740px;
+	margin: 0 auto;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.baikal {
+		max-width: 1024px;
+		max-height: 640px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.baikal {
+		max-width: 768px;
+		max-height: 480px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.baikal {
+		max-width: 320px;
+		max-height: 200px;
+	}
 }

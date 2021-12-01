@@ -8,6 +8,8 @@
 	transition: opacity .3s ease;
 	list-style-type: none;
 	display: flex;
+	padding-right: 18px;
+	padding: 0;
 }
 
 .footer__links:hover {
@@ -17,5 +19,6 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
 	.footer__links {
 		flex-direction: column;
+		font-size: 24px;
 	}
 }

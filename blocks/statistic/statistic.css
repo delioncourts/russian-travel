@@ -1,6 +1,6 @@
 .statistic {
-	margin: 0 auto;
-	max-width: 984px;
+	margin: 0;
+	max-width: 690px;
 	padding-bottom: 92px;
 	padding-left: 148px;
 	padding-right: 442px;
@@ -11,6 +11,7 @@
 		padding-bottom: 92px;
 		padding-left: 148px;
 		padding-right: 442px;
+		max-width: 690px;
 	}
 }
 
@@ -19,6 +20,7 @@
 		padding-right: 24px;
 		padding-bottom: 88px;
 		padding-left: 24px;
+		max-width: 720px;
 	}
 }
 
@@ -27,5 +29,6 @@
 		padding-bottom: 64px;
 		padding-left: 16px;
 		padding-right: 16px;
+		max-width: 288px;
 	}
 }

@@ -1,18 +1,21 @@
 .baikal {
-	background-repeat: no-repeat;
 	position: relative;
 	background-image: url(../../images/cover-trains.jpg);
 	background-size: cover;
-	width: 1184px;
+	margin: 0;
+	max-width: 1184px;
 	height: 740px;
-	margin: 0 auto;
+	margin-left: 48px;
+	margin-right: 48px;
 }
 
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 	.baikal {
-		width: 1024px;
+		max-width: 1024px;
 		max-height: 640px;
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 
@@ -20,6 +23,8 @@
 	.baikal {
 		max-width: 768px;
 		max-height: 480px;
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 
@@ -27,5 +32,7 @@
 	.baikal {
 		max-width: 320px;
 		max-height: 200px;
+		margin-left: 0;
+		margin-right: 0;
 	}
 }

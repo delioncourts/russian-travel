@@ -3,7 +3,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
-	line-height: 163%;
+	line-height: 29px;
 	margin-bottom: 24px;
 }
 
@@ -17,3 +17,10 @@
 		line-height: 26.08px;
 	}
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.place__text {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+} 

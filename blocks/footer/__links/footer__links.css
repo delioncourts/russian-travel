@@ -1,14 +1,21 @@
 .footer__links {
 	margin: 0;
-	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 18px;
 	color: #FFFFFF;
 	transition: opacity .3s ease;
+	list-style-type: none;
+	display: flex;
 }
 
 .footer__links:hover {
 	transition: opacity .8s ease;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.footer__links {
+		flex-direction: column;
+	}
 }

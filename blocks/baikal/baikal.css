@@ -2,15 +2,17 @@
 	background-repeat: no-repeat;
 	position: relative;
 	background-image: url(../../images/cover-trains.jpg);
-	max-width: 1184px;
-	max-height: 740px;
+	background-size: cover;
+	width: 1184px;
+	height: 740px;
 	margin: 0 auto;
+	position: relative;
 }
 
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 	.baikal {
-		max-width: 1024px;
+		width: 1024px;
 		max-height: 640px;
 	}
 }

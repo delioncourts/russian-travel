@@ -1,5 +1,11 @@
 .footer__link {
 	margin-right: 18px;
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	font-size: 16px;
+	line-height: 18px;
+	transition: opacity .3 ease;
 }
 
 .footer__link:last-of-type {
@@ -10,5 +16,7 @@
 	.footer__link {
 		margin-bottom: 32px;
 		margin-right: 0px;
+		font-size: 24px;
+		line-height: 24px;
 	}
 }

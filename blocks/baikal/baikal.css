@@ -4,5 +4,5 @@
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	background-image: url(./images/cover-trains.jpg);
+	background-image: url(../../images/cover-trains.jpg);
 }

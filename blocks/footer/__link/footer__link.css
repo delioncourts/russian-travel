@@ -1,5 +1,5 @@
 .footer__link {
-	margin-right: 18px;
+	padding-right: 18px;
 	text-decoration: none;
 	color: #FFFFFF;
 	display: block;
@@ -9,7 +9,7 @@
 }
 
 .footer__link:last-of-type {
-	margin-right: 0px;
+	margin-left: 0px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

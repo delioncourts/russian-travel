@@ -7,11 +7,11 @@
 	color: #FFFFFF;
 	display: block;
 	text-decoration: none;
-	opacity: 0.3;
+	opacity: .3;
 }
 
 header__language-link:hover {
-	opacity: 0.8;
+	opacity: .8;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

@@ -2,11 +2,11 @@
 	position: relative;
 	background-image: url(../../images/cover-trains.jpg);
 	background-size: cover;
-	margin: 0;
+	margin: 0 auto;
 	max-width: 1184px;
 	height: 740px;
-	margin-left: 48px;
-	margin-right: 48px;
+	/*margin-left: 48px;
+	margin-right: 48px;*/
 }
 
 

@@ -14,11 +14,15 @@
 
 .baikal__link:before {
     position: absolute;
-    background-color: #2A2C2F;
+    background: #2A2C2F;
     transition: opacity .3 ease;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .baikal__link:hover::before {
-    background-color: #2A2C2F;
+    background: #2A2C2F;
     opacity: .8;
 }

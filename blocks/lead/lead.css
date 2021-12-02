@@ -8,6 +8,7 @@
 	flex-direction: column;
 	justify-content: center;
     align-items: center;
+	box-sizing: border-box;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {

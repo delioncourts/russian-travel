@@ -19,6 +19,7 @@
 @import url(../blocks/statistic/__span-accent/statistic__span-accent.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__grid/gallery__grid.css);
+@import url(../blocks/gallery/__list/gallery__list.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/place/place.css);
 @import url(../blocks/places/place/__title/place__title.css);

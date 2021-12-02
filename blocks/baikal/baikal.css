@@ -3,7 +3,7 @@
 	background-image: url(../../images/cover-trains.jpg);
 	background-size: cover;
 	margin: 0 auto;
-	max-width: 1184px;
+	width: 1184px;
 	height: 740px;
 	/*margin-left: 48px;
 	margin-right: 48px;*/
@@ -12,27 +12,21 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 	.baikal {
-		max-width: 1024px;
-		max-height: 640px;
-		margin-left: 0;
-		margin-right: 0;
+		width: 1024px;
+		height: 640px;
 	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.baikal {
-		max-width: 768px;
-		max-height: 480px;
-		margin-left: 0;
-		margin-right: 0;
+		width: 768px;
+		height: 480px;
 	}
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 	.baikal {
-		max-width: 320px;
-		max-height: 200px;
-		margin-left: 0;
-		margin-right: 0;
+		height: 200px;
+		width: 100%;
 	}
 }

@@ -14,7 +14,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.place__text {
 		font-size: 16px;
-		line-height: 26.08px;
+		line-height: 26px;
 	}
 }
 
@@ -22,5 +22,7 @@
 	.place__text {
 		padding-left: 16px;
 		padding-right: 16px;
+		font-size: 16px;
+		line-height: 26px;
 	}
 } 

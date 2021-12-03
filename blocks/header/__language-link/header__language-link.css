@@ -7,10 +7,9 @@
 	color: #FFFFFF;
 	display: block;
 	text-decoration: none;
-	opacity: .3;
 }
 
-header__language-link:hover {
+.header__language-link:hover {
 	opacity: .8;
 }
 

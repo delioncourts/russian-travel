@@ -10,13 +10,14 @@
 }
 
 .baikal__link:hover {
-    background-color: rgba(42, 44, 47, 0.8);
+    background-color: rgb(42, 44, 47);
+    opacity: 0.3;
 }
 
 .baikal__link:before {
     content: "";
     position: absolute;
-    transition: opacity .3 ease;
+    transition: opacity .8 ease;
     top: 0;
     bottom: 0;
     left: 0;

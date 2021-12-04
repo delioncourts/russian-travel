@@ -2,24 +2,18 @@
 	margin: 0 auto;
 	max-width: 984px;
 	padding-bottom: 92px;
-	padding-left: 148px;
-	padding-right: 442px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 	.statistic {
 		padding-bottom: 92px;
-		padding-left: 148px;
-		padding-right: 442px;
 		max-width: 928px;
 	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.statistic {
-		padding-right: 24px;
 		padding-bottom: 88px;
-		padding-left: 24px;
 		max-width: 720px;
 	}
 }
@@ -27,8 +21,6 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
 	.statistic {
 		padding-bottom: 64px;
-		padding-left: 16px;
-		padding-right: 16px;
 		max-width: 288px;
 	}
 }

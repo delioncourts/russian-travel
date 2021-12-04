@@ -6,25 +6,19 @@
     text-decoration: none;
     width: 100%;
     height: 100%;
-    /*background-color: rgba(63, 94, 139, 0.3);*/
-}
-
-.baikal__link:hover {
-    background-color: rgb(42, 44, 47);
-    opacity: 0.3;
 }
 
 .baikal__link:before {
     content: "";
     position: absolute;
-    transition: opacity .8 ease;
+    opacity: .3;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    background: #2A2C2F;
 }
 
 .baikal__link:hover::before {
-    background: #2A2C2F;
     opacity: .8;
 }
